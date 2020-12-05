@@ -50,7 +50,7 @@ function updateHTML(data) {
     
     data.hits.forEach(function(hit){
         resultsHTML = resultsHTML + `
-    <div class="col-6 col-lg-3 col-md-4 mb-3">
+    <div class="col-6 col-lg-3 col-md-4 mb-3 pt-3">
         <div class="card">
             <img src="${hit.recipe.image}" class="card-img-top" alt="...">
                 <div class="card-body">
