@@ -1,9 +1,12 @@
+/*Raleway font from Google Fonts. Referenced in the index.html*/
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/*Making sure that the entire body is consistent with the same font*/
 body {
     font-family: "Raleway", sans-serif;
 }
 
+/*Styling to the header section. Includes dimensions and background image*/
 #jumbotron-section {
     height: 30em;
     width: auto;
@@ -12,6 +15,7 @@ body {
     background-size: cover;
 }
 
+/*Styling to the Bootstrap jumbrotron background and font color*/
 .jumbotron {
     background-color: rgba(95, 158, 160, 0.712);
 }
