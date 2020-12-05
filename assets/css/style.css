@@ -20,7 +20,7 @@ body {
     background-color: rgba(95, 158, 160, 0.712);
 }
 
-.hero-txt {
+.display-4, .lead {
     color: #fff;
     font-weight: 500;
 }
