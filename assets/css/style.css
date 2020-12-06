@@ -24,9 +24,24 @@ body {
     align-items: center;
 }
 
+/* Styling of header/jumbotron text*/
 .display-4, .lead {
     color: #fff;
     font-weight: 500;
+}
+
+/* Making the small-sized input field invisible when site is viewed on medium+large screens*/
+@media (min-width: 768px) {
+  .input-group-sm {
+    display: none;
+  }
+}
+
+/* Making the large-sized input field invisible when site is viewed on small/mobile screens*/
+@media (max-width: 768px) {
+  .input-group-lg {
+    display: none;
+  }
 }
 
 /* Changes the default stock colors of Bootstrap buttons*/
@@ -45,46 +60,54 @@ body {
     background-color: #f5f5f5
 }
 
+.card-title {
+  font-weight: 700;
+}
+
+.card-text {
+  font-weight: 500;
+}
+
 /*Footer section*/
 #footer {
     background: #2a2c39;
     padding: 0 0 0 0;
     color: #fff;
     font-size: 14px;
-  }
+}
   
-  #footer .footer-top {
+#footer .footer-top {
     padding: 30px 0 30px 0;
-  }
+}
   
-  #footer .footer-top .footer-info {
+#footer .footer-top .footer-info {
     margin-bottom: 30px;
-  }
+}
   
-  #footer .footer-top .footer-info h3 {
-    font-size: 24px;
+#footer .footer-top .footer-info h3 {
+    font-size: 26px;
     margin: 0;
     padding: 2px 0 2px 0;
     line-height: 1;
     font-weight: 700;
-  }
+}
   
-  #footer .footer-top .footer-info p {
-    font-size: 18px;
+#footer .footer-top .footer-info p {
+    font-size: 22px;
     line-height: 24px;
     margin-bottom: 0;
     font-weight: 500;
     color: #fff;
-  }
+}
 
-  #footer .footer-top .footer-info i {
-      font-size: 24px;
+#footer .footer-top .footer-info i {
+      font-size: 26px;
       padding-right: 10px;
       color: cadetblue;
-  }
+}
   
   
-  #footer .footer-top .footer-links a {
+#footer .footer-top .footer-links a {
     font-size: 18px;
     display: inline-block;
     background: cadetblue;
@@ -98,43 +121,48 @@ body {
     width: 36px;
     height: 36px;
     transition: all 0.4s ease-in-out;
-  }
+}
   
- #footer .footer-top .footer-links a:hover {
+#footer .footer-top .footer-links a:hover {
     background: #fff;
     color: cadetblue;
     text-decoration: none;
-  }
+}
   
-  #footer .footer-top h3 {
-    font-size: 24px;
+#footer .footer-top h3 {
+    font-size: 26px;
     font-weight: 600;
     color: #fff;
     position: relative;
     padding-bottom: 12px;
-  }
+}
 
-  #footer .footer-top .footer-credits a {
+#footer .footer-top .footer-credits {
+  font-size: 16px;
+}
+
+#footer .footer-top .footer-credits a {
       color: #fff;
       transition: all ease-in-out 0.2s;
-  }
+}
 
-  #footer .footer-top .footer-credits a:hover {
+#footer .footer-top .footer-credits a:hover {
       text-decoration: none;
       color: cadetblue;
-  }
+}
     
-  #footer .copyright {
+#footer .copyright {
     text-align: left;
     margin-top: 30px;
-  }
+    font-size: 16px;
+}
   
-  #footer .copyright a {
+#footer .copyright a {
     color: #fff;
-  }
+}
 
-  #footer .copyright a:hover {
+#footer .copyright a:hover {
     text-decoration: none;
     color: cadetblue;
-  }
+}
   
