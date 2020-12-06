@@ -48,11 +48,11 @@ function updateHTML(data) {
     data.hits.forEach(function (hit) {
         resultsHTML = resultsHTML + `
     <div class="col-6 col-lg-3 col-md-4 mb-3 pt-3" data-aos="fade-up">
-        <div class="card">
+        <div class="card h-100">
             <img src="${hit.recipe.image}" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">${hit.recipe.label}</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">${hit.recipe.dietLabels[0]}, ${hit.recipe.calories} kCal.</h6>
+                    <h6 class="card-subtitle mb-2 text-muted">${hit.recipe.healthLabels[length]}, ${hit.recipe.calories} kCal.</h6>
                     <p class="card-text">${hit.recipe.source}</p>
                     <a href="${hit.recipe.url}" class="btn btn-default" target="_blank">Let's go!</a>
                 </div>
