@@ -52,7 +52,7 @@ function updateHTML(data) {
             <img src="${hit.recipe.image}" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">${hit.recipe.label}</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">${hit.recipe.dietLabels[0]}, ${hit.recipe.calories} calories.</h6>
+                    <h6 class="card-subtitle mb-2 text-muted">${hit.recipe.dietLabels[0]}, ${hit.recipe.calories} kCal.</h6>
                     <p class="card-text">${hit.recipe.source}</p>
                     <a href="${hit.recipe.url}" class="btn btn-default" target="_blank">Let's go!</a>
                 </div>
