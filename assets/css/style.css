@@ -21,11 +21,23 @@ body {
     height: 600px;
     width: 100vw;
     border-radius: 0!important;
+    align-items: center;
 }
 
 .display-4, .lead {
     color: #fff;
     font-weight: 500;
+}
+
+/* Changes the default stock colors of Bootstrap buttons*/
+.btn-default {
+    background: cadetblue;
+    color: #fff;
+}
+
+.btn-default:hover {
+    background: rgb(116, 194, 197);
+    color: #fff;
 }
 
 /*Displayed results when API is called*/
@@ -51,7 +63,7 @@ body {
   
   #footer .footer-top .footer-info h3 {
     font-size: 24px;
-    margin: 0 0 20px 0;
+    margin: 0;
     padding: 2px 0 2px 0;
     line-height: 1;
     font-weight: 700;
@@ -66,15 +78,16 @@ body {
   }
 
   #footer .footer-top .footer-info i {
-      font-size: 28px;
-      padding: 10px;
+      font-size: 24px;
+      padding-right: 10px;
+      color: cadetblue;
   }
   
   
   #footer .footer-top .footer-links a {
     font-size: 18px;
     display: inline-block;
-    background: #E7625F;
+    background: cadetblue;
     color: #fff;
     line-height: 1;
     padding: 10px 0;
@@ -88,111 +101,34 @@ body {
   
  #footer .footer-top .footer-links a:hover {
     background: #fff;
-    color: #E7625F;
+    color: cadetblue;
     text-decoration: none;
   }
   
-  #footer .footer-top h4 {
-    font-size: 16px;
+  #footer .footer-top h3 {
+    font-size: 24px;
     font-weight: 600;
     color: #fff;
     position: relative;
     padding-bottom: 12px;
   }
-  
-  #footer .footer-top .footer-links {
-    margin-bottom: 30px;
+
+  #footer .footer-top .footer-credits a {
+      color: #fff;
+      transition: all ease-in-out 0.2s;
   }
-  
-  #footer .footer-top .footer-links ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+
+  #footer .footer-top .footer-credits a:hover {
+      text-decoration: none;
+      color: cadetblue;
   }
-  
-  #footer .footer-top .footer-links ul i {
-    padding-right: 5px;
-    color: #E7625F;
-    font-size: 20px;
-    line-height: 1;
-  }
-  
-  #footer .footer-top .footer-links ul li {
-    padding: 10px 0;
-    display: flex;
-    align-items: center;
-  }
-  
-  #footer .footer-top .footer-links ul li:first-child {
-    padding-top: 0;
-  }
-  
-  #footer .footer-top .footer-links ul a {
-    color: #fff;
-    transition: 0.3s;
-    display: inline-block;
-    line-height: 1;
-  }
-  
-  #footer .footer-top .footer-links ul a:hover {
-    color: rgba(255, 255, 255, 0.5);
-  }
-  
-  #footer .footer-top .footer-newsletter form {
-    margin-top: 30px;
-    margin-bottom: 20px;
-    background: #fff;
-    padding: 6px 10px;
-    position: relative;
-    border-radius: 4px;
-  }
-  
-  #footer .footer-top .footer-newsletter form input[type="email"] {
-    border: 0;
-    padding: 4px;
-    width: calc(100% - 110px);
-  }
-  
-  #footer .footer-top .footer-newsletter form input[type="submit"] {
-    position: absolute;
-    top: 0;
-    right: -2px;
-    bottom: 0;
-    border: 0;
-    background: none;
-    font-size: 16px;
-    padding: 0 20px;
-    background: #E7625F; 
-    color: #fff;
-    transition: 0.3s;
-    border-radius: 0 4px 4px 0;
-  }
-  
-  #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
-    background: #E7625F;
-  }
-  
+    
   #footer .copyright {
     text-align: left;
+    margin-top: 30px;
   }
-  
   
   #footer .copyright a {
-    color: #404e5c;
-  }
-  
-  #footer .credits {
-    padding-top: 10px;
-    text-align: center;
-    font-size: 13px;
     color: #fff;
   }
   
-  #footer-brand a {
-    color: #fff;
-    transition: 0.3s;
-  }
-  
-  #footer-brand a:hover {
-    color: rgba(255, 255, 255, 0.5);
-  }
