@@ -83,7 +83,8 @@ body {
 #footer .footer-top .footer-info {
     margin-bottom: 30px;
 }
-  
+
+/*First column*/
 #footer .footer-top .footer-info h3 {
     font-size: 26px;
     margin: 0;
@@ -105,7 +106,8 @@ body {
       padding-right: 10px;
       color: cadetblue;
 }
-  
+
+/*Second column*/
 #footer .footer-top .footer-links a {
     font-size: 18px;
     display: inline-block;
@@ -127,7 +129,8 @@ body {
     color: cadetblue;
     text-decoration: none;
 }
-  
+
+/*Third column*/
 #footer .footer-top h3 {
     font-size: 26px;
     font-weight: 600;
