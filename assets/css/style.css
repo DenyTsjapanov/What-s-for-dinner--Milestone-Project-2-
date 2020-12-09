@@ -68,6 +68,11 @@ body {
   font-weight: 500;
 }
 
+#calories {
+    color: cadetblue;
+
+}
+
 /*Footer section*/
 #footer {
     background: #2a2c39;
