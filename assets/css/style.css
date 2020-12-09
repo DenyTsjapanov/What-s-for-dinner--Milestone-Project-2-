@@ -30,20 +30,6 @@ body {
     font-weight: 500;
 }
 
-/* Making the small-sized input field invisible when site is viewed on medium+large screens*/
-@media (min-width: 768px) {
-  .input-group-sm {
-    display: none;
-  }
-}
-
-/* Making the large-sized input field invisible when site is viewed on small/mobile screens*/
-@media (max-width: 768px) {
-  .input-group-lg {
-    display: none;
-  }
-}
-
 /* Changes the default stock colors of Bootstrap buttons*/
 .btn-default {
     background: cadetblue;
