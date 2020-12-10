@@ -25,9 +25,15 @@ body {
 }
 
 /* Styling of header/jumbotron text*/
-.display-4, .lead {
+.display-4 {
     color: #fff;
-    font-weight: 500;
+    font-weight: 700;
+}
+
+.lead {
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 /* Changes the default stock colors of Bootstrap buttons*/
